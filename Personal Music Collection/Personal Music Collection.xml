@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Personal Music Collection</name>
+    </assembly>
+    <members>
+        <member name="M:Personal_Music_Collection.Form1.ReadFile">
+            <summary>
+            Opens music.txt, reads each line and if its an album
+            add it to the Albums list along with all of its parameters then add it
+            to the albumslistbox.If its a song add it to the Songs list along with all of
+            its parameters then display it in the songs list box.
+            And fianlly close the music.txt file
+            </summary>
+        </member>
+        <member name="F:Personal_Music_Collection.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Personal_Music_Collection.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Personal_Music_Collection.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Personal_Music_Collection.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:Personal_Music_Collection.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Personal_Music_Collection.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Personal_Music_Collection.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

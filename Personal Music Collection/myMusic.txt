@@ -1,0 +1,28 @@
+Album,Goodbye & Good Riddance,2018,Juice WRLD
+Album,Death Race For Love,2019,Juice WRLD
+Album,Eternal Atake,2020,Lil Uzi Vert
+Album,Eternal Atake (Deluxe) - LUV vs. The World 2.,2020,Lil Uzi Vert
+Album,The Goat,2020,Polo G
+Album,F*CK LOVE,2020,The Kid LAROI
+Song,All Girls Are the Same,2:46,Juice WRLD,Goodbye & Good Riddance
+Song,Lucid Dreams,3:55,Juice WRLD,Goodbye & Good Riddance
+Song,Lean With Me,2:56,Juice WRLD,Goodbye & Good Riddance
+Song,Wasted,4:19,Juice WRLD,Goodbye & Good Riddance
+Song,I'm Still,3:13,Juice WRLD,Goodbye & Good Riddance
+Song,Candles,3:04,Juice WRLD,Goodbye & Good Riddance
+Song,Scared of Love,2:51,Juice WRLD,Goodbye & Good Riddance
+Song,Used To,2:56,Juice WRLD,Goodbye & Good Riddance
+Song,Hurt Me,2:02,Juice WRLD,Goodbye & Good Riddance
+Song,Black & White,3:07,Juice WRLD,Goodbye & Good Riddance
+Song,Long Gone,3:07,Juice WRLD,Goodbye & Good Riddance
+Song,End of the Road,2:43,Juice WRLD,Goodbye & Good Riddance
+Song,I'll Be Fine,4:04,Juice WRLD,Goodbye & Good Riddance
+Song,Baby Pluto,4:04,Lil Uzi Vert,Eternal Atake
+Song,Lo Mein,4:04,Lil Uzi Vert,Eternal Atake
+Song,champian,69,test,Eternal Atake
+Song,Don't Believe The Hype,Polo G,Polo G,The Got
+Song,Bean (Kobe),2:46,Lil Uzi Vert,Eternal Atake (Deluxe) - LUV vs. The World 2.
+Song,21,2:56,Polo G,The Goat
+Song,MAYBE,2:54,The Kid LAROI,F*CK LOVE
+Song,Wrong (feat. Lil Mosey),3:03,The Kid LAROI,F*CK LOVE
+Song,I WISH,2:06,The Kid LAROI,F*CK LOVE
