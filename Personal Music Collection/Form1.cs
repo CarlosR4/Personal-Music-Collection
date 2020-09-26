@@ -28,7 +28,7 @@ namespace Personal_Music_Collection
 
 
         // IS THIS WORKING ???????????????????????????????????
-        
+        // NOO DUDE WTF!!!!
 
 
 
@@ -116,7 +116,7 @@ namespace Personal_Music_Collection
                 //display an error message
                 MessageBox.Show("");
 
-                //testestsetsetsetsetsetsetsetestsetsetsetsetstset
+                //THIS IS NOTT A TESTT
 
             }
         }
@@ -130,7 +130,7 @@ namespace Personal_Music_Collection
         {
             ReadFile();
 
-            MessageBox.Show("bruh");
+            MessageBox.Show("Your Mom gay");
         }
 
 
