@@ -13,6 +13,110 @@
             And fianlly close the music.txt file
             </summary>
         </member>
+        <member name="M:Personal_Music_Collection.Form1.Form1_Load(System.Object,System.EventArgs)">
+            <summary>
+            Calls the ReadFile method on startup
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Personal_Music_Collection.Form1.AlbumListBox_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            When an album in selected display all of its information in the textboxes
+            and display its songs in the sing list box
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Personal_Music_Collection.Form1.SongsListBox_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            if a song is selected display all of its information
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Personal_Music_Collection.Form1.ClearTextBoxes">
+            <summary>
+            used to clear all of the textboxes used for the application
+            </summary>
+        </member>
+        <member name="M:Personal_Music_Collection.Form1.SetTextBoxReadOnly">
+            <summary>
+            used to set the necessary textboxes to read only
+            </summary>
+        </member>
+        <member name="M:Personal_Music_Collection.Form1.SetTextBoxWrite">
+            <summary>
+            allow the text boxes to be written on
+            </summary>
+        </member>
+        <member name="M:Personal_Music_Collection.Form1.OnEditRadioButton_CheckedChanged(System.Object,System.EventArgs)">
+            <summary>
+            when the onEdit radio button is checked set the buttons and texboxes to visible
+            and allow the textboxes to be written on
+            
+            if its not then hide hte buttons and textboxes and set them to read only
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Personal_Music_Collection.Form1.AddAlbumButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            add the album to the Albums list and set all its information
+            also clears the textboxes associated with album
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Personal_Music_Collection.Form1.AddSongButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            adds the users song to the Songs list and give it all its properties
+            also clear all the textboxes associated with a song
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Personal_Music_Collection.Form1.SaveFile">
+            <summary>
+            clears the mymusic.txt file then writes the albums in Albums[] one by one, line by line
+            then writes the songs in Songs[] one by one and fianlly closes the file
+            </summary>
+        </member>
+        <member name="M:Personal_Music_Collection.Form1.SaveButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            saves the changes to the list and refreshes the lists then saves the file.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Personal_Music_Collection.Form1.CloseButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            saves the file then closes the form1 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Personal_Music_Collection.Form1.DeleteSongButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            goes to each entry in song then deletes the on selected by the user
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Personal_Music_Collection.Form1.DeleteAlbumButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            goes to each entry in albums then deletes the on selected by the user
+            finally updates the albums in listbox
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Personal_Music_Collection.Form1.refreshItems">
+            <summary>
+            clears both listboxes then adds the albums to the Albums List box
+            if an album is selected display its updated music list aswell
+            </summary>
+        </member>
         <member name="F:Personal_Music_Collection.Form1.components">
             <summary>
             Required designer variable.

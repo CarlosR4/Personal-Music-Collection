@@ -24,6 +24,14 @@ namespace Personal_Music_Collection
         }
 
         StreamReader inputFile;
+
+
+
+        // IS THIS WORKING ???????????????????????????????????
+        
+
+
+
         /// <summary>
         /// Opens music.txt, reads each line and if its an album
         /// add it to the Albums list along with all of its parameters then add it
@@ -33,6 +41,7 @@ namespace Personal_Music_Collection
         /// </summary>
         private void ReadFile()
         {
+
             try
             {
                 string line;
@@ -107,6 +116,8 @@ namespace Personal_Music_Collection
                 //display an error message
                 MessageBox.Show("");
 
+                //testestsetsetsetsetsetsetsetestsetsetsetsetstset
+
             }
         }
 
@@ -118,6 +129,8 @@ namespace Personal_Music_Collection
         private void Form1_Load(object sender, EventArgs e)
         {
             ReadFile();
+
+            MessageBox.Show("bruh");
         }
 
 
